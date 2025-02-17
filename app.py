@@ -11,7 +11,7 @@ Original file is located at
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBcWXn8BnzvbwQsxKcQuz30clByoNEJXJM")
+genai.configure(api_key="AIzaSyCOeIR2N4z-JhxHtTRVYrBE5LrtUyhDbk8")
 
 def review_code(code):
     response = genai.GenerativeModel("gemini-pro").generate_content(code)
